@@ -1,0 +1,68 @@
+/* Basic Reset and Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Learn more about box model and sizing at [CSS-Tricks](https://css-tricks.com/box-sizing/) */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Banner Styling */
+.banner {
+    background-color: #800080; /* Standard purple color */
+    color: #ffffff;
+    padding: 60px 20px; /* Large padding for a prominent banner */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner-content h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+.banner-content p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Main Content Styling */
+.main-content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.main-content h2 {
+    color: #800080;
+    margin-bottom: 15px;
+}
+
+.main-content a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #8A2BE2; /* BlueViolet shade for a nice button */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.main-content a:hover {
+    background-color: #9370DB; /* MediumPurple shade on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
