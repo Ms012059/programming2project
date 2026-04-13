@@ -1,0 +1,10 @@
+Just some notes and tidbits on classes/functions:
+  - 'MusicPlayer' class inheritance from the parent class QMainWindow.
+  - Included different headers for our buttons, file management, text outputs, and etc. 
+  - The constructor that was added sets up the layout and button functions.
+  - The load music button will pop up file explorer for the user to upload an appropriate audio file type. We use the QUrl type to initialize our local files into our vector.
+  - The play, pause, and stop buttons are all applicable to the current song selected on the playlist. They link to each respective function in 'Music Player'.
+  - 'Show Playlist' Function options:
+    > View​
+    > Play​
+    > Delete​
